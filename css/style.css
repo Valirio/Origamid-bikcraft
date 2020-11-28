@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*Estilos Gerais*/
 
 body{
@@ -20,6 +20,36 @@ p{
   text-transform: uppercase;
   letter-spacing:.1rem;
   
+}
+.btn:hover{
+  color: #fff;
+  border-color: #fff;
+
+}
+.call .btn:hover{
+  color: #000;
+  border-color: #000;
+  font-weight: bold;
+}
+
+.subtitulo{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 14px auto 10px auto;
 }
 
 
@@ -61,7 +91,7 @@ p{
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: 100%;
-  margin-top: 96px;
+  margin-top: 90px;
   text-align: center;
   padding-top: 80px;
 }
@@ -101,6 +131,41 @@ p{
   letter-spacing: .1em;
 }
 
+.produtos{
+  padding: 60px 0;
+}
 
+.produtos_lista li{
+  background: #fec63e;
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 15px;
+}
 
-/*Estilos Introdução*/
+.produtos_icone{
+  background: #000;
+  padding: 20px;
+}
+.produtos_lista li h3{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: .1em;
+}
+.produtos_lista li h3:after{
+  content: "";
+  display: block;
+  width: 45px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto 3px auto;
+}
+.produtos_lista li p{
+  padding: 10px 20px 20px 20px;
+}
+.call{
+  text-align: center;
+}
+.call p{
+  padding-bottom: 20px;
+}
