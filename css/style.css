@@ -56,6 +56,7 @@ p{
 /*Estilos Header*/
 .header{
   position: fixed;
+  z-index: 1;
   top:0;
   width: 100%;
   background: #fec63e;
@@ -91,7 +92,7 @@ p{
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: 100%;
-  margin-top: 90px;
+  margin-top: 75px;
   text-align: center;
   padding-top: 80px;
 }
@@ -139,7 +140,7 @@ p{
   background: #fec63e;
   text-align: center;
   padding: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .produtos_icone{
@@ -167,5 +168,38 @@ p{
   text-align: center;
 }
 .call p{
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  clear: both;
+}
+.portfoliho{
+  background: black;
+  padding-bottom: 20px;
+}
+
+.portfoliho .subtitulo{
+  color: #fec63e;
+  margin-top: 45px;
+}
+.portfoliho .subtitulo:after{
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 14px auto 10px auto;
+}
+
+.portfoliho .call .btn:hover{
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+}
+.portfoliho p{
+  color: #fec63e;
+}
+.potfolio_lista li:last-child{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.qualidade .subtitulo{
+  margin-top: 35px;
 }
