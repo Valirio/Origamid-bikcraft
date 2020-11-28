@@ -5,10 +5,17 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer{
+  background-color: black;
+}
+
 p{
   font-family: Georgia, 'Times New Roman', sans-serif;
   font-size:14px;
   line-height: 20px;
+}
+img{
+  display: block;
 }
 
 .btn{
@@ -55,7 +62,7 @@ p{
 
 /*Estilos Header*/
 .header{
-  position: fixed;
+  /*position: fixed;*/
   z-index: 1;
   top:0;
   width: 100%;
@@ -92,7 +99,6 @@ p{
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: 100%;
-  margin-top: 75px;
   text-align: center;
   padding-top: 80px;
 }
@@ -199,7 +205,67 @@ p{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.qualidade{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.qualidade img{
+  margin: 0 auto;
+}
+.qualidade_list{
+  margin-top: 50px;
+  text-align: center;
+}
 .qualidade .subtitulo{
+  text-align: center;
   margin-top: 35px;
+ 
+}
+.qualidade_list li{
+  text-align: center;
+  padding: 0 40px;
+}
+.qualidade_list li h3{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+.qualidade .call p{
+  padding-top: 40px;
+}
+.pre-footer{
+  text-align: center;
+  background: url("../img/bg-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.text-white{
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font: bold;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.footer{
+  width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+  position: relative;
+}
+.footer p{
+  color: #fec63e;
+}
+.footer p:after{
+  background: #fec63e;
+}
+.footer h3{
+  color: #fff;
+  font-size: .8em;
+  margin-left: 40px;
 }
