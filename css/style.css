@@ -18,6 +18,22 @@ img{
   display: block;
 }
 
+.botao{
+  width: 45px;
+  height: 45px;
+  border:3px solid #fec63e;
+  margin-top: -10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.amarelo{
+    background-color: #fec63e;
+}
+.center{
+  text-align: left;
+  padding-left: 30%;
+}
+
 .btn{
   border: 3px solid #fec63e;
   padding: 10px 30px;
